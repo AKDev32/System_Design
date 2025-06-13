@@ -2,6 +2,7 @@ public class Dog extends Animal implements Runnable {
 
     String bread;
     String hairColor;
+    RunningBehaviour runningBehaviour = new FastRunningBehaviour();
 
     void bark () {
         System.out.println("Bhow");
@@ -15,6 +16,7 @@ public class Dog extends Animal implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Dog is running");
+//        System.out.println("Dog is running");
+        runningBehaviour.run();
     }
 }
