@@ -36,18 +36,17 @@ public class Client {
 //        gh.bark();
 
 
-//        List<Animal> animals =
-//                 List.of (
-//                         new Dog(),
-//                        new Cat(),
-//                        new Dolphin(),
-//                        new Husky()
-//                );
+        List<Animal> animals =
+                 List.of (
+                         new Husky(),
+                         new Dog(),
+                         new Cat()
+                 );
 
 
-//        for (Animal as : animals) {
-//            as.weight = 10;
-//        }
+        for (Animal as : animals) {
+            as.weight = 10;
+        }
 
         Animal ef = createHusky();   // Factory Design Pattern
         ef.name = "Tommy2";
