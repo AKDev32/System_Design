@@ -4,6 +4,7 @@ public class Penguin extends Bird{
 
     @Override
     public void fly() {
-        throw new FlyBehaviourNotSupportedException();
+        System.out.println("This can't fly");
+//        throw new FlyBehaviourNotSupportedException();
     }
 }
