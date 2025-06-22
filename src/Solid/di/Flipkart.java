@@ -5,7 +5,8 @@ public class Flipkart {
 
 //    PayUAPI payUAPI = new PayUAPI();
 
-//    All the API will work on the PaymentAPI 
+//    All the API will work on the PaymentAPI like in the given condition
+
 
 //    PaymentAPI api = new RPayAPIAdapter();
 
@@ -24,6 +25,7 @@ public class Flipkart {
 //                2025,
 //                11,
 //                "Aman"
+
 //        );
 
         api.insertCardValues(
