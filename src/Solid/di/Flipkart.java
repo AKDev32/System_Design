@@ -5,7 +5,7 @@ public class Flipkart {
 
 //    PayUAPI payUAPI = new PayUAPI();
 
-//    All the API will work on the PaymentAPI like in the given condition
+//    All the API will work on the PaymentAPI
 
 
 //    PaymentAPI api = new RPayAPIAdapter();
