@@ -8,9 +8,9 @@ public class Flipkart {
 //    All the API will work on the PaymentAPI
 
 
-//    PaymentAPI api = new RPayAPIAdapter();
+    PaymentAPI api = new RPayAPIAdapter();
 
-    PaymentAPI api = new PayUAPIAdapter();
+//    PaymentAPI api = new PayUAPIAdapter();
 
     void pay () {
 
