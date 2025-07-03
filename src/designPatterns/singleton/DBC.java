@@ -5,7 +5,7 @@ public class DBC {
 //    private static DBC dbc = null;
 
 //    creating a object
-    private static final DBC dbc = new DBC();
+    private static DBC dbc = null;
 
     static String dbUrl;
     String timeOut;
@@ -17,9 +17,14 @@ public class DBC {
     }
 
     public static DBC getInstance () {
-//        if (dbc == null) {
-//            dbc = new DBC();
-//        }
+
+        if (dbc == null) {
+            synchronized (dbc) {
+                if (dbc == null) {
+                    dbc = new DBC();
+                }
+            }
+        }
         return dbc;
     }
 }
